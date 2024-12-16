@@ -1,0 +1,24 @@
+Red science,        1,   5
+  Copper plate,     1,
+  Iron gear,        1
+Green science,      1,   6,
+  Inserter,         1,
+  Transporter belt, 1
+Inserter,           1,   0.5,
+  Green circuit,    1,
+  Iron gear,        1,
+  Iron plate,       1
+Green circuit,      1,   0.5,
+  Copper cable,     3,
+  Iron plate,       1
+Transporter belt,   2,   0.5,
+  Iron gear,        1,
+  Iron plate,       1
+Iron gear,          1,   0.5,
+  Iron plate,       2
+Copper cable,       2,   0.5,
+  Copper plate,     1
+Iron plate,         1,   3.2,
+  Iron ore,         1
+Copper plate,       1,   3.2,
+  Copper ore,       1
