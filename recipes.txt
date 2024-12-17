@@ -32,6 +32,8 @@ Sulphur,             2,  1
 
 Iron gear,           1,  0.5
   Iron plate,        2
+Iron stick,          2,  0.5
+  Iron plate,        1
 Pipe,                1,  0.5
   Iron plate,        1
 Copper cable,        2,  0.5
@@ -67,6 +69,17 @@ Inserter,            1,  0.5
 Transporter belt,    2,  0.5
   Iron gear,         1
   Iron plate,        1
+Rail,                2,  0.5
+  Iron stick,        1
+  Steel plate,       1
+  Stone,             1
+Electric furnace,    1,  5
+  Red circuit,       5
+  Steel plate,      10
+  Stone brick,      10
+Productivity mod,    1, 15
+  Red circuit,       5
+  Green circuit,     5
 
 Red science,         1,  5
   Copper plate,      1
@@ -82,3 +95,7 @@ Blue science,        2, 24
   Red circuit,       3
   Engine,            2
   Sulphur,           1
+Purple science,      3, 21
+  Electric furnace,  1
+  Productivity mod,  1
+  Rail,             30
