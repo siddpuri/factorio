@@ -1,24 +1,84 @@
-Red science,        1,   5
-  Copper plate,     1,
-  Iron gear,        1
-Green science,      1,   6,
-  Inserter,         1,
-  Transporter belt, 1
-Inserter,           1,   0.5,
-  Green circuit,    1,
-  Iron gear,        1,
-  Iron plate,       1
-Green circuit,      1,   0.5,
-  Copper cable,     3,
-  Iron plate,       1
-Transporter belt,   2,   0.5,
-  Iron gear,        1,
-  Iron plate,       1
-Iron gear,          1,   0.5,
-  Iron plate,       2
-Copper cable,       2,   0.5,
-  Copper plate,     1
-Iron plate,         1,   3.2,
-  Iron ore,         1
-Copper plate,       1,   3.2,
-  Copper ore,       1
+[Raw]
+
+Copper ore
+Iron ore
+Stone
+Coal
+
+Water
+Petrol
+
+[Furnace]
+
+Copper plate,        1,  3.2
+  Copper ore,        1
+Iron plate,          1,  3.2
+  Iron ore,          1
+Stone brick,         1,  3.2
+  Stone,             2
+Steel plate,         1, 16
+  Iron plate,        5
+
+[Chemical plant]
+
+Plastic,             2,  1
+  Coal,              1
+  Petrol,           20
+Sulphur,             2,  1
+  Petrol,           30
+  Water,            30
+
+[Factory]
+
+Iron gear,           1,  0.5
+  Iron plate,        2
+Pipe,                1,  0.5
+  Iron plate,        1
+Copper cable,        2,  0.5
+  Copper plate,      1
+Green circuit,       1,  0.5
+  Copper cable,      3
+  Iron plate,        1
+Red circuit,         1,  6
+  Copper cable,      4
+  Green circuit,     2
+  Plastic,           2
+Engine,              1, 10
+  Iron gear,         1
+  Pipe,              2
+  Steel plate,       1
+
+Grenade,             1,  8
+  Coal,             10
+  Iron plate,        5
+Magazine,            1,  1
+  Iron plate,        4
+Piercing rounds,     1,  3
+  Copper plate,      5
+  Magazine,          1
+  Steel plate,       1
+Wall,                1,  0.5
+  Stone brick,       5
+
+Inserter,            1,  0.5
+  Green circuit,     1
+  Iron gear,         1
+  Iron plate,        1
+Transporter belt,    2,  0.5
+  Iron gear,         1
+  Iron plate,        1
+
+Red science,         1,  5
+  Copper plate,      1
+  Iron gear,         1
+Green science,       1,  6
+  Inserter,          1
+  Transporter belt,  1
+Gray science,        2, 10
+  Grenade,           1
+  Piercing rounds,   1
+  Wall,              2
+Blue science,        2, 24
+  Red circuit,       3
+  Engine,            2
+  Sulphur,           1
