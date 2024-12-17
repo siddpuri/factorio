@@ -9,7 +9,15 @@ speeds = {
     "Chemical plant": 1,
 }
 
-rate = 0.6
+targets = [
+    "Red science",
+    "Green science",
+    "Gray science",
+    "Blue science",
+    "Purple science",
+]
+
+rate = 0.3
 
 class Item:
     name: str
@@ -102,7 +110,7 @@ class Toplevel:
     def __init__(self):
         self.db = Catalog()
 
-    def run(self) -> None:
+    def repl(self) -> None:
         while True:
             name = input("Enter item name: ")
             if not name:
@@ -113,4 +121,11 @@ class Toplevel:
             else:
                 ShoppingList(item, rate).print()
 
-Toplevel().run()
+    def batch(self) -> None:
+        for target in targets:
+            item = self.db.items[target]
+            print(target)
+            print("=" * len(target))
+            ShoppingList(item, rate).print()
+
+Toplevel().batch()
