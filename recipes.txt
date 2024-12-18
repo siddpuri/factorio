@@ -7,6 +7,8 @@ Coal
 
 Water
 Petrol
+Sulphuric acid
+Lubricant
 
 [Furnace]
 
@@ -38,6 +40,14 @@ Pipe,                1,  0.5
   Iron plate,        1
 Copper cable,        2,  0.5
   Copper plate,      1
+Battery,             1,  4
+  Copper plate,      1
+  Iron plate,        1
+  Sulphuric acid,   20
+Structure,           1, 15
+  Copper plate,     20
+  Plastic,           5
+  Steel plate,       2
 Green circuit,       1,  0.5
   Copper cable,      3
   Iron plate,        1
@@ -45,10 +55,18 @@ Red circuit,         1,  6
   Copper cable,      4
   Green circuit,     2
   Plastic,           2
+Blue circuit,        1, 10
+  Red circuit,       2
+  Green circuit,    20
+  Sulphuric acid,    5
 Engine,              1, 10
   Iron gear,         1
   Pipe,              2
   Steel plate,       1
+Electric engine,     1, 10
+  Green circuit,     2
+  Engine,            1
+  Lubricant,        15
 
 Grenade,             1,  8
   Coal,             10
@@ -80,6 +98,11 @@ Electric furnace,    1,  5
 Productivity mod,    1, 15
   Red circuit,       5
   Green circuit,     5
+Flying robot,        1, 20
+  Battery,           2
+  Electric engine,   1
+  Green circuit,     3
+  Steel plate,       1
 
 Red science,         1,  5
   Copper plate,      1
@@ -99,3 +122,8 @@ Purple science,      3, 21
   Electric furnace,  1
   Productivity mod,  1
   Rail,             30
+Yellow science,      3, 21
+  Flying robot,      1
+  Structure,         3
+  Blue circuit,      2
+  

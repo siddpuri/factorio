@@ -5,7 +5,7 @@ db_file_name = "recipes.txt"
 speeds = {
     "Raw": 1,
     "Furnace": 2,
-    "Factory": 0.75,
+    "Factory": 1.25,
     "Chemical plant": 1,
 }
 
@@ -15,6 +15,7 @@ targets = [
     "Gray science",
     "Blue science",
     "Purple science",
+    "Yellow science",
 ]
 
 rate = 0.3
@@ -97,11 +98,12 @@ class ShoppingList:
 
     def print(self) -> None:
         for i in range(len(self.items)):
-            if not self.items[i].ingredients:
-                continue
             item = self.items[i]
             rate = self.rates[i]
-            print(f"{item.name:16}: {rate:4.1f} {rate * item.time / item.amount:4.1f}")
+            text = f"{item.name:16}"
+            if self.items[i].ingredients:
+                text += f": {rate:4.1f} {rate * item.time / item.amount:4.1f}"
+            print(text)
         print()
 
 class Toplevel:
